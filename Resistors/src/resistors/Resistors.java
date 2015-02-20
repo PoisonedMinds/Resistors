@@ -12,6 +12,13 @@ import javax.swing.*;
 public class Resistors {
 
     public static void main(String[] args) {
+       String resistors, colours[]=new String[3];
+       int one,two,three;
+       resistors=JOptionPane.showInputDialog("Input a combonation of 3 colours to find their equivlent resistance. Ex. Red-Blue-Black");
+       colours=resistors.split("-");
+       
+       
+        
         
     }
 
