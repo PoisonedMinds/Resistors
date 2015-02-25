@@ -20,37 +20,41 @@ public class Resistors {
            if (colours[i].equals("black")) {
                colours[i]="0";
            } else if (colours[i].equals("brown")) {
-               colours[i]="0";
+               colours[i]="1";
            } else if (colours[i].equals("red")) {
-               colours[i]="0";
+               colours[i]="2";
            } else if (colours[i].equals("orange")) {
-               colours[i]="0";
+               colours[i]="3";
            } else if (colours[i].equals("yellow")) {
-               colours[i]="0";
+               colours[i]="4";
            } else if (colours[i].equals("green")) {
-               colours[i]="0";
+               colours[i]="5";
            } else if (colours[i].equals("blue")) {
-               colours[i]="0";
+               colours[i]="6";
            } else if (colours[i].equals("violet")) {
-               colours[i]="0";
+               colours[i]="7";
            } else if (colours[i].equals("grey")) {
-               colours[i]="0";
+               colours[i]="8";
            } else if (colours[i].equals("white")) {
-               colours[i]="0";
+               colours[i]="9";
            } else {
-               JOptionPane.showMessageDialog(null, "invlid colour");
+               JOptionPane.showMessageDialog(null, "invlid colour: "+colours[i]);
                System.exit(1);
            }
-           
-           
-           
-           
-           
-           
-           
-           
-           
        }
+           one=Integer.parseInt(colours[0]);
+           two=Integer.parseInt(colours[1]);
+           three=Integer.parseInt(colours[2]);
+           
+           
+           
+           
+           
+           
+           
+           
+           
+       
        
         
         
