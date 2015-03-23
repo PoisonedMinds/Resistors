@@ -48,7 +48,7 @@ public class Resistors {
             one = Integer.parseInt(colours[0]);
             two = Integer.parseInt(colours[1]);
             three = Integer.parseInt(colours[2]);
-            ohms = (int) ((one * 10 + 2) * pow(10, three));//calculate ohms based on numbers given
+            ohms = (int) ((one * 10 + two) * pow(10, three));//calculate ohms based on numbers given
             test = Integer.parseInt(JOptionPane.showInputDialog("This resistor has"
                     + " a value of " + ohms + " ohms.\nInput 1 to try again or"
                     + " anything else to exit."));//output and ask to retry
